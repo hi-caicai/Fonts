@@ -1,0 +1,234 @@
+/* ========================================================================
+   anatole.css（阿那托勒(Anatole):日出女神）,每天写一个样式，慢慢变成库，卧槽，要发财了！！ by CaiCai
+ ========================================================================== */
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  background: #fff;
+  color: #666;
+}
+body {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0 0 15px 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: normal;
+  color: #666;
+  text-transform: none;
+}
+/*
+ * h1到h6字体样式（以an为开头，为anatole样式通用规则）
+ */
+h1,
+.an_h1 {
+  font-size: 36px;
+  line-height: 42px;
+}
+h2,
+.an_h2 {
+  font-size: 24px;
+  line-height: 30px;
+}
+h3,
+.an_h3 {
+  font-size: 18px;
+  line-height: 24px;
+}
+h4,
+.an_h4 {
+  font-size: 16px;
+  line-height: 22px;
+}
+h5,
+.an_h5 {
+  font-size: 14px;
+  line-height: 20px;
+}
+h6,
+.an_h6 {
+  font-size: 12px;
+  line-height: 18px;
+}
+/*
+ * a,p样式
+ */
+a {
+  text-decoration: none;
+}
+a:active,
+a:hover {
+  outline: 0;
+}
+a,
+.an_link {
+  color: #6e6c6c;
+  text-decoration: none;
+  cursor: pointer;
+}
+a:hover,
+.an_link:hover {
+  color: #37bb5c;
+  text-decoration: none;
+}
+p {
+  color: #999;
+  font-size: 14px;
+}
+/*
+ * an_main 框架结构
+ */
+.an_main_960 {
+  width: 960px;
+  height: 100%;
+  margin: 0px auto;
+}
+.an_main_1200 {
+  width: 1200px;
+  height: 100%;
+  margin: 0px auto;
+}
+.an_main_720 {
+  width: 720px;
+  height: 100%;
+  margin: 0px auto;
+}
+/*
+ * an_header 头部结构
+ */
+.an_header {
+  padding-top: 100px;
+}
+.an_logo h1 {
+  color: #4f4f4f;
+  font-weight: bold;
+  line-height: 36px;
+  text-align: center;
+}
+.an_logo p {
+  color: #888;
+  font-size: 18px;
+  text-align: center;
+}
+/*
+ * an_button_list 按钮库
+ */
+.an_button_list {
+  padding-top: 100px;
+}
+.an_button_1 {
+  padding: 10px;
+  background-color: #4ac872;
+  border-radius: 3px;
+  color: #fff;
+}
+.an_button_1:hover {
+  padding: 10px;
+  background-color: #5fd384;
+  border-radius: 3px;
+  color: #fff;
+}
+/*
+ * an_nav
+ */
+.an_nav {
+  text-align: center;
+  padding-top: 40px;
+}
+.an_nav a {
+  padding: 20px;
+  color: #7a7878;
+  text-decoration: none;
+}
+.an_nav a:hover {
+  padding: 20px;
+  color: #3ed267;
+  text-decoration: none;
+}
+/*
+ * an_nav
+ */
+.an_photo {
+  margin-top: 50px;
+  width: 100%;
+  text-align: center;
+  background-image: url("https://unsplash.it/960/500/?random");
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 3px;
+  background-position-y: 100%;
+}
+.an_photo_960 {
+  background-image: inherit;
+  max-width: 960px;
+  height: 500px;
+}
+.an_photo_480 {
+  height: 100%;
+  background-image: inherit;
+  max-width: 480px;
+  border-radius: 3px;
+}
+.an_post {
+  padding-top: 50px;
+  height: 300px;
+}
+.an_post_title {
+  width: 50%;
+  padding-top: 100px;
+  float: left;
+}
+.an_post_title p {
+  width: 80%;
+  line-height: 21px;
+}
+.an_post_img {
+  width: 50%;
+  float: right;
+}
+.an_post_title_2 {
+  width: 50%;
+  padding-top: 100px;
+  float: right;
+}
+.an_post_title_2 p {
+  width: 80%;
+  padding-left: 50px;
+  line-height: 21px;
+}
+.an_post_title_2 h2 {
+  width: 80%;
+  padding-left: 50px;
+}
+.an_post_img_2 {
+  width: 50%;
+  float: left;
+}
+/*
+ * an_footer
+ */
+.an_footer {
+  text-align: center;
+  padding-bottom: 50px;
+}
+.form-control {
+  padding: 10px;
+  outline: none;
+  border-radius: 5px;
+  background-color: #6595fc;
+  color: #fff;
+  border: 0px;
+  margin-top: 15px;
+  height: 50px;
+  width: 780px;
+}
+.google_fonts {
+  margin: 0 auto;
+  padding-left: 100px;
+}
